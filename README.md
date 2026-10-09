@@ -3,13 +3,14 @@
 Official release downloads for **[Diagon](https://www.soverain.cz/diagon)** — a
 diagrams-as-code desktop app by [Soverain s.r.o.](https://www.soverain.cz)
 Write a few objects, watch the diagram lay itself out, drag nodes and the code
-updates — with an offline AI that drafts diagrams from plain words, running
-entirely on your machine.
+updates. Diagon has no AI of its own; the AI assistant you already use can be
+connected to draw in it (see
+[AI assistants](https://www.soverain.cz/docs/diagon/assistants)).
 
 **Download & install guides: [soverain.cz/diagon/download](https://www.soverain.cz/diagon/download)**
 
 Or grab the latest installer straight from the
-[Releases](https://github.com/Haustorius/diagon-releases/releases) page:
+[Releases](https://github.com/soverain-cz/diagon-releases/releases) page:
 
 | Platform | File |
 |---|---|
@@ -21,8 +22,9 @@ Or grab the latest installer straight from the
 Each release ships a `SHA256SUMS` file — verify your download with
 `sha256sum -c SHA256SUMS`.
 
-> The installers are large (~1.8 GB): the offline AI model is bundled inside,
-> which is what lets Diagon work with the network cable unplugged.
+> The installers are about 100 MB (the AppImage about 130 MB). Up to 1.2.1 they
+> were about 2 GB, because an AI model was bundled inside; 1.3.0 removed it — see
+> the [release notes](https://www.soverain.cz/docs/diagon/release-notes).
 
 ## About this repository
 
